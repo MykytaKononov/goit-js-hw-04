@@ -10,9 +10,6 @@ function calcAverageCalories(days) {
         totalDays += 1;
       }
     }
-    if (days === '') {
-      return 0;
-    }
     const result = totalCalories / totalDays;
     return result;
   }
